@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET\\Baby-ShoppingOnline\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78EE0CA1-0F02-42A0-B8CC-4107B3CC88C7}|Baby-ShoppingOnline.csproj|d:\\.net\\baby-shoppingonline\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EE0CA1-0F02-42A0-B8CC-4107B3CC88C7}|Baby-ShoppingOnline.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EE0CA1-0F02-42A0-B8CC-4107B3CC88C7}|Baby-ShoppingOnline.csproj|d:\\.net\\baby-shoppingonline\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78EE0CA1-0F02-42A0-B8CC-4107B3CC88C7}|Baby-ShoppingOnline.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EE0CA1-0F02-42A0-B8CC-4107B3CC88C7}|Baby-ShoppingOnline.csproj|d:\\.net\\baby-shoppingonline\\data\\babycarecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EE0CA1-0F02-42A0-B8CC-4107B3CC88C7}|Baby-ShoppingOnline.csproj|solutionrelative:data\\babycarecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EE0CA1-0F02-42A0-B8CC-4107B3CC88C7}|Baby-ShoppingOnline.csproj|d:\\.net\\baby-shoppingonline\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78EE0CA1-0F02-42A0-B8CC-4107B3CC88C7}|Baby-ShoppingOnline.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EE0CA1-0F02-42A0-B8CC-4107B3CC88C7}|Baby-ShoppingOnline.csproj|d:\\.net\\baby-shoppingonline\\wwwroot\\viewmodels\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EE0CA1-0F02-42A0-B8CC-4107B3CC88C7}|Baby-ShoppingOnline.csproj|solutionrelative:wwwroot\\viewmodels\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BabyCareContext.cs",
+              "DocumentMoniker": "D:\\.NET\\Baby-ShoppingOnline\\Data\\BabyCareContext.cs",
+              "RelativeDocumentMoniker": "Data\\BabyCareContext.cs",
+              "ToolTip": "D:\\.NET\\Baby-ShoppingOnline\\Data\\BabyCareContext.cs",
+              "RelativeToolTip": "Data\\BabyCareContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T13:36:50.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET\\Baby-ShoppingOnline\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\.NET\\Baby-ShoppingOnline\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T13:33:36.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.NET\\Baby-ShoppingOnline\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\.NET\\Baby-ShoppingOnline\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T13:32:24.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\.NET\\Baby-ShoppingOnline\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\.NET\\Baby-ShoppingOnline\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T09:53:36.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "D:\\.NET\\Baby-ShoppingOnline\\wwwroot\\ViewModels\\ProductModel.cs",
+              "RelativeDocumentMoniker": "wwwroot\\ViewModels\\ProductModel.cs",
+              "ToolTip": "D:\\.NET\\Baby-ShoppingOnline\\wwwroot\\ViewModels\\ProductModel.cs",
+              "RelativeToolTip": "wwwroot\\ViewModels\\ProductModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:07:07.327Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

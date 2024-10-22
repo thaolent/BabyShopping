@@ -1,0 +1,32 @@
+﻿using HomePage;
+
+@model Baby_ShoppingOnline.ViewModels.HomePage;
+
+<div>
+    <h2>Product Categories</h2>
+    <ul>
+        @foreach (var category in Model.Categories)
+        {
+            <li>
+                <a href="/Products/ByCategory/@category.Id">@category.Name</a>
+                <p>@category.Description</p>
+            </li>
+        }
+    </ul>
+</div>
+
+<div>
+    <h2>Featured Products</h2>
+    <div class="featured-products">
+        @foreach (var product in Model.FeaturedProducts)
+        {
+            <div class="product-item">
+                <img src="@product.ImageUrl" alt="@product.Name" />
+                <h3>@product.Name</h3>
+                <p>@product.Description</p>
+                <p>Price: $@product.Price</p>
+                <a href="/Products/Details/@product.Id">View Details</a>
+            </div>
+        }
+    </div>
+</div>
