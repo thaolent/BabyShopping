@@ -3,6 +3,7 @@ using System;
 using Baby_ShoppingOnline.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Baby_ShoppingOnline.Data.Migrations
 {
     [DbContext(typeof(BabyCareContext))]
-    partial class BabyCareContextModelSnapshot : ModelSnapshot
+    [Migration("20241024110458_SeedCategory")]
+    partial class SeedCategory
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.10");

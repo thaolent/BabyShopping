@@ -1,4 +1,4 @@
-﻿using Baby_ShoppingOnline.Models;
+﻿using Baby_ShoppingOnline.Entity;
 
 namespace Baby_ShoppingOnline.Service
 {
@@ -16,14 +16,14 @@ namespace Baby_ShoppingOnline.Service
 
         private List<Category> categories = new List<Category>
     {
-        new Category { Id = 1, Name = "Electronics", Description = "Electronic gadgets" },
-        new Category { Id = 2, Name = "Books", Description = "Fiction and non-fiction books" }
+        new Category { CategoryId = 1, CategoryName = "Electronics", Description = "Electronic gadgets" },
+        new Category { CategoryId = 2, CategoryName = "Books", Description = "Fiction and non-fiction books" }
     };
 
         private List<Product> products = new List<Product>
     {
-        new Product { Id = 1, Name = "Smartphone", Description = "Latest model smartphone", Price = 699, ImageUrl = "/images/smartphone.jpg", CategoryId = 1 },
-        new Product { Id = 2, Name = "Laptop", Description = "High-performance laptop", Price = 999, ImageUrl = "/images/laptop.jpg", CategoryId = 1 }
+        new Product { ProductId = 1, ProductName = "Smartphone", Image = "", CreatedBy = "thaolent", UpdatedBy = "thaolent", RefCategoryId = new Category{CategoryName = "", Description = ""}},
+        new Product { ProductId = 2, ProductName = "iPhone 15 Pro max 256GB Blue nature", Image = "", CreatedBy = "thaolent", UpdatedBy = "thaolent", RefCategoryId = new Category{CategoryName = "", Description = ""}}
     };
 
         public IEnumerable<Category> GetCategories1()

@@ -3331,11 +3331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.NET\\Baby-ShoppingOnline\\Baby-ShoppingOnline.csproj",
+      "projectUniqueName": "d:\\.NET\\Baby-ShoppingOnline\\Baby-ShoppingOnline.csproj",
       "projectName": "Baby-ShoppingOnline",
-      "projectPath": "D:\\.NET\\Baby-ShoppingOnline\\Baby-ShoppingOnline.csproj",
+      "projectPath": "d:\\.NET\\Baby-ShoppingOnline\\Baby-ShoppingOnline.csproj",
       "packagesPath": "C:\\Users\\thaolent.HARVEYNASH\\.nuget\\packages\\",
-      "outputPath": "D:\\.NET\\Baby-ShoppingOnline\\obj\\",
+      "outputPath": "d:\\.NET\\Baby-ShoppingOnline\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

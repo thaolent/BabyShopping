@@ -3,6 +3,7 @@ using System;
 using Baby_ShoppingOnline.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Baby_ShoppingOnline.Data.Migrations
 {
     [DbContext(typeof(BabyCareContext))]
-    partial class BabyCareContextModelSnapshot : ModelSnapshot
+    [Migration("20241024110310_SeedInsertData")]
+    partial class SeedInsertData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.10");
@@ -166,350 +169,350 @@ namespace Baby_ShoppingOnline.Data.Migrations
                             ProductId = 1,
                             AveragePoint = 7.5m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7662),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(409),
                             Description = "Platinum",
                             Image = "D:\\.NET\\BabyShopping_Image\\Diaper\\Huggies.jpg",
                             Price = 195000.0m,
                             ProductName = "Huggies Nature Made",
                             RefCategoryIdCategoryId = 1,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7684)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(423)
                         },
                         new
                         {
                             ProductId = 2,
                             AveragePoint = 5.0m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7686),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(425),
                             Description = "Bobby for baby",
                             Image = "D:\\.NET\\BabyShopping_Image\\Diaper\\bobby.jpg",
                             Price = 189900.0m,
                             ProductName = "Bobby",
                             RefCategoryIdCategoryId = 1,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7687)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(425)
                         },
                         new
                         {
                             ProductId = 3,
                             AveragePoint = 9.0m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7689),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(426),
                             Description = "Gooby Extra Newborn Little ",
                             Image = "D:\\.NET\\BabyShopping_Image\\Diaper\\gooby.jpg",
                             Price = 205000.0m,
                             ProductName = "Gooby",
                             RefCategoryIdCategoryId = 1,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7690)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(427)
                         },
                         new
                         {
                             ProductId = 4,
                             AveragePoint = 7.2m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7691),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(428),
                             Description = "Bland, soft fabric. - Ultra-soft fabric using the super-microfiber ",
                             Image = "D:\\.NET\\BabyShopping_Image\\Diaper\\nabizam.jpg",
                             Price = 234098.0m,
                             ProductName = "Nabizam",
                             RefCategoryIdCategoryId = 1,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7692)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(428)
                         },
                         new
                         {
                             ProductId = 5,
                             AveragePoint = 6.1m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7693),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(429),
                             Description = "MAMOGOM Premium CARE ORGANIC KOREAN PREMIUM CARE  ",
                             Image = "D:\\.NET\\BabyShopping_Image\\Diaper\\mamogom.jpg",
                             Price = 245000.0m,
                             ProductName = "Mamogom",
                             RefCategoryIdCategoryId = 1,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7694)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(430)
                         },
                         new
                         {
                             ProductId = 6,
                             AveragePoint = 7.5m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7798),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(431),
                             Description = "Aptamil NewZeland",
                             Image = "D:\\.NET\\BabyShopping_Image\\Milk\\Powdered milk\\aptamil_bac.jpg",
                             Price = 195000.0m,
                             ProductName = "Aptamil",
                             RefCategoryIdCategoryId = 2,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7799)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(431)
                         },
                         new
                         {
                             ProductId = 7,
                             AveragePoint = 5.0m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7800),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(432),
                             Description = "For infant",
                             Image = "D:\\.NET\\BabyShopping_Image\\Milk\\Powdered milk\\blackmore.jpg",
                             Price = 189900.0m,
                             ProductName = "Blackmores",
                             RefCategoryIdCategoryId = 2,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7801)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(432)
                         },
                         new
                         {
                             ProductId = 8,
                             AveragePoint = 9.0m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7804),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(434),
                             Description = "Colos for baby",
                             Image = "D:\\.NET\\BabyShopping_Image\\Milk\\Powdered milk\\colosbaby.jpg",
                             Price = 205000.0m,
                             ProductName = "ColosBaby",
                             RefCategoryIdCategoryId = 2,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7804)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(434)
                         },
                         new
                         {
                             ProductId = 9,
                             AveragePoint = 7.2m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7806),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(435),
                             Description = "Well-cooked, pureed legumes such as beans, lentils and chickpeas.",
                             Image = "D:\\.NET\\BabyShopping_Image\\Milk\\Powdered milk\\enfamil.jpg",
                             Price = 234098.0m,
                             ProductName = "Enfamil A+",
                             RefCategoryIdCategoryId = 2,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7807)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(435)
                         },
                         new
                         {
                             ProductId = 10,
                             AveragePoint = 6.1m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7808),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(436),
                             Description = "HiPP becomes Germany's third company and first food manufacturer",
                             Image = "D:\\.NET\\BabyShopping_Image\\Milk\\Powdered milk\\hipp.jpg",
                             Price = 245000.0m,
                             ProductName = "HiPP",
                             RefCategoryIdCategoryId = 2,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7809)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(437)
                         },
                         new
                         {
                             ProductId = 11,
                             AveragePoint = 7.5m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7810),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(437),
                             Description = "Abott Grow",
                             Image = "D:\\.NET\\BabyShopping_Image\\Milk\\Liquid milk\\abottgrow.jpg",
                             Price = 195000.0m,
                             ProductName = "Abott Grow",
                             RefCategoryIdCategoryId = 3,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7811)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(438)
                         },
                         new
                         {
                             ProductId = 12,
                             AveragePoint = 5.6m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7813),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(439),
                             Description = "Aptakid",
                             Image = "D:\\.NET\\BabyShopping_Image\\Milk\\Liquid milk\\aptakid.jpg",
                             Price = 189900.0m,
                             ProductName = "Aptakid",
                             RefCategoryIdCategoryId = 3,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7813)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(439)
                         },
                         new
                         {
                             ProductId = 13,
                             AveragePoint = 4.0m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7815),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(440),
                             Description = "Colos for baby",
                             Image = "D:\\.NET\\BabyShopping_Image\\Milk\\Liquid milk\\colosbaby.jpg",
                             Price = 205000.0m,
                             ProductName = "ColosBaby",
                             RefCategoryIdCategoryId = 3,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7815)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(441)
                         },
                         new
                         {
                             ProductId = 14,
                             AveragePoint = 7.4m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7817),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(442),
                             Description = "DalatMilk",
                             Image = "D:\\.NET\\BabyShopping_Image\\Milk\\Liquid milk\\dalatmilk.jpg",
                             Price = 123000.0m,
                             ProductName = "DalatMilk",
                             RefCategoryIdCategoryId = 3,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7818)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(442)
                         },
                         new
                         {
                             ProductId = 15,
                             AveragePoint = 9.8m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7820),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(449),
                             Description = "Vinamil Green farm",
                             Image = "D:\\.NET\\BabyShopping_Image\\Milk\\Liquid milk\\vinamilk xanh.jpg",
                             Price = 134000.0m,
                             ProductName = "Vinamilk",
                             RefCategoryIdCategoryId = 3,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7820)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(449)
                         },
                         new
                         {
                             ProductId = 16,
                             AveragePoint = 7.5m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7822),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(450),
                             Description = "Banh an dam",
                             Image = "D:\\.NET\\BabyShopping_Image\\Baby Food\\banhandamGerber.jpg",
                             Price = 195000.0m,
                             ProductName = "Gerber Puffs",
                             RefCategoryIdCategoryId = 4,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7822)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(450)
                         },
                         new
                         {
                             ProductId = 17,
                             AveragePoint = 5.6m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7824),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(451),
                             Description = "Bot an dam vi lua mach",
                             Image = "D:\\.NET\\BabyShopping_Image\\Baby Food\\botbiokid.jpg",
                             Price = 189900.0m,
                             ProductName = "BioKids",
                             RefCategoryIdCategoryId = 4,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7825)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(452)
                         },
                         new
                         {
                             ProductId = 18,
                             AveragePoint = 4.0m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7826),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(453),
                             Description = "Bot an dam vij sua",
                             Image = "D:\\.NET\\BabyShopping_Image\\Baby Food\\botHeinz.jpg",
                             Price = 205000.0m,
                             ProductName = "Bot Heinz",
                             RefCategoryIdCategoryId = 4,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7827)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(453)
                         },
                         new
                         {
                             ProductId = 19,
                             AveragePoint = 7.4m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7828),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(454),
                             Description = "Bot an dam Hipp",
                             Image = "D:\\.NET\\BabyShopping_Image\\Baby Food\\botHipp.jpg",
                             Price = 123000.0m,
                             ProductName = "Bot HiPP Organic",
                             RefCategoryIdCategoryId = 4,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7829)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(455)
                         },
                         new
                         {
                             ProductId = 20,
                             AveragePoint = 9.8m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7830),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(455),
                             Description = "Vang sua trai cay",
                             Image = "D:\\.NET\\BabyShopping_Image\\Baby Food\\vangsuahoff.jpg",
                             Price = 134000.0m,
                             ProductName = "Vang sua Hoff",
                             RefCategoryIdCategoryId = 4,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7831)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(456)
                         },
                         new
                         {
                             ProductId = 21,
                             AveragePoint = 7.5m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7833),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(457),
                             Description = "Men tieu hoa",
                             Image = "D:\\.NET\\BabyShopping_Image\\Vitamin\\biogaia.jpg",
                             Price = 195000.0m,
                             ProductName = "BioGaia",
                             RefCategoryIdCategoryId = 5,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7833)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(457)
                         },
                         new
                         {
                             ProductId = 22,
                             AveragePoint = 5.6m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7835),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(458),
                             Description = "D3K2",
                             Image = "D:\\.NET\\BabyShopping_Image\\Vitamin\\sunday natural.jpg",
                             Price = 189900.0m,
                             ProductName = "Sunday Natural",
                             RefCategoryIdCategoryId = 5,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7835)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(458)
                         },
                         new
                         {
                             ProductId = 23,
                             AveragePoint = 4.0m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7837),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(459),
                             Description = "An ngon ngu ngon",
                             Image = "D:\\.NET\\BabyShopping_Image\\Vitamin\\fitobimbi.jpg",
                             Price = 205000.0m,
                             ProductName = "Fitobimbi",
                             RefCategoryIdCategoryId = 5,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7837)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(460)
                         },
                         new
                         {
                             ProductId = 24,
                             AveragePoint = 7.4m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7839),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(461),
                             Description = "MultiVitamins",
                             Image = "D:\\.NET\\BabyShopping_Image\\Vitamin\\pediakid.jpg",
                             Price = 123000.0m,
                             ProductName = "PediaKid",
                             RefCategoryIdCategoryId = 5,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7840)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(461)
                         },
                         new
                         {
                             ProductId = 25,
                             AveragePoint = 9.8m,
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7841),
+                            CreatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(462),
                             Description = "Probiotic",
                             Image = "D:\\.NET\\BabyShopping_Image\\Vitamin\\pribiotic.jpg",
                             Price = 134000.0m,
                             ProductName = "Kid Smart drops",
                             RefCategoryIdCategoryId = 5,
                             UpdatedBy = "Admin",
-                            UpdatedDate = new DateTime(2024, 10, 24, 18, 4, 57, 441, DateTimeKind.Local).AddTicks(7842)
+                            UpdatedDate = new DateTime(2024, 10, 24, 18, 3, 9, 911, DateTimeKind.Local).AddTicks(462)
                         });
                 });
 

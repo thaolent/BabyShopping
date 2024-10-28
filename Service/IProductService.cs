@@ -1,10 +1,8 @@
-﻿using Baby_ShoppingOnline.Models;
+﻿using Baby_ShoppingOnline.Entity;
 
-namespace Baby_ShoppingOnline.Service
+namespace Baby_ShoppingOnline.Service;
+public interface IProductService
 {
-    public interface IProductService
-    {
-        IEnumerable<Category> GetCategories();
-        IEnumerable<Product> GetFeaturedProducts();
-    }
+    IEnumerable<Category> GetCategories();
+    IEnumerable<Product> GetFeaturedProducts();
 }
